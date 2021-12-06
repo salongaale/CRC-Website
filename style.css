@@ -1,3 +1,18 @@
+
+html {
+	background: fixed;
+	background-image: url('crc pictures/bot_tiled_orange.png');
+}
+
+body {
+	background-color: white;
+	padding: 20px;
+	max-width: 1000px;
+	margin: 0px auto;
+	filter: drop-shadow(10px 15px 10x #000000);
+	font-family: sans-serif;
+}
+
 .top_menu {
 	overflow: hidden;
 }
