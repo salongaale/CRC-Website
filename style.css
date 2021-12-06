@@ -15,35 +15,79 @@ body {
 
 .top_menu {
 	overflow: hidden;
+	margin: 0px 0px 10px 10px;
 }
-.top_menu a {
+.top_menu-right a {
 	float: left;
 	font-size: 20px;
+	font-family: Verdana;
 	font-weight: 400;
 	text-align: center;
 	padding: 14px 16px;
 	color: rgb(128, 128, 128);
-}
-.top_menu a.active {
-	color: rgb(128, 128, 128);
-	text-decoration: underline;
 }
 .top_menu-right {
 	float: right;
+	margin-right: 30%;
 }
-.top_menu a:link {
+.top_menu-right a:link {
 	color: rgb(128, 128, 128);
 	text-decoration: none;
 }
-.top_menu a:hover {
+.top_menu-right a:hover {
 	color: black;
 }
-.top_menu b {
-	float: left;
-	font-size: 20px;
-	font-weight: 400;
-	text-align: center;
-	padding: 14px 16px;
-	color: black;
+
+.top_menu-right a.active {
+	color: rgb(0, 0, 0);
 	text-decoration: underline;
+}
+
+.top_menu img {
+	transition: 0.3s;
+}
+
+.top_menu img:hover {
+	transform: scale(1.05);
+}
+
+
+hr {
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+/*This is for the specific pages*/
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 420px;
+	justify-content: space-evenly;
+	grid-column-gap: 25px;
+	font-family: Verdana;
+}
+
+.title {
+	font-size: 40;
+	color: rgb(131, 42, 42);
+	font-family: Verdana;
+}
+
+.sub_title {
+	font-size: 30;
+	color: rgb(131, 42, 42);
+	font-family: Verdana;
+}
+
+.paragraph {
+	font-size: 18;
+	font-family: Verdana;
+}
+
+.grid-container-images {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	justify-content: space-evenly;
+	grid-column-gap: 25px;
+	font-family: Verdana;
 }
