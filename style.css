@@ -10,7 +10,7 @@ body {
 	max-width: 1000px;
 	margin: 0px auto;
 	filter: drop-shadow(10px 15px 10x #000000);
-	font-family: sans-serif;
+	font-family: Verdana, sans-serif;
 }
 
 .top_menu {
@@ -28,7 +28,7 @@ body {
 }
 .top_menu-right {
 	float: right;
-	margin-right: 15%;
+	margin-right: 10%;
 }
 .top_menu-right a:link {
 	color: rgb(128, 128, 128);
@@ -65,6 +65,34 @@ hr {
 	justify-content: space-evenly;
 	grid-column-gap: 25px;
 	font-family: Verdana;
+	margin-bottom: 20px;
+}
+
+.flex-gallery {
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	color: black;
+}
+
+.flex-gallery div {
+	width: 400px;
+	flex-grow: 1;
+	padding: 10px;
+}
+
+.flex-gallery img {
+	width: 100%;
+	clip-path: 
+    polygon(
+      20% 0,
+      100% 0,
+      100% 90%,
+	  80% 100%,
+	  0 100%,
+	  0 10%
+    );
 }
 
 .title {
@@ -77,6 +105,14 @@ hr {
 	font-size: 30;
 	color: rgb(131, 42, 42);
 	font-family: Verdana;
+}
+
+.div-title {
+	width: 100%;
+	text-align: center;
+	background-color: rgb(131, 42, 42);
+	color: white;
+	padding: 10px 0px;
 }
 
 .paragraph {
