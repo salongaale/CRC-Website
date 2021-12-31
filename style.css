@@ -117,3 +117,34 @@ hr {
 	grid-column-gap: 25px;
 	font-family: Verdana;
 }
+
+.faq {
+	text-align: center;
+}
+
+
+button.collapsible {
+	background-color: white;
+	border-color: rgb(228, 228, 228);
+	color: rgb(0,0,0);
+	padding: 15px;
+	width: 100%;
+	text-align: left;
+	font-size: 15px;
+	margin-top: 15px;
+	border-radius: 4px;
+
+  }
+  
+  .active, button.collapsible:hover {
+	background-color:rgb(228, 228, 228);
+	border-style: outset;
+  }
+  
+  div.answer {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: rgb(228, 228, 228);
+
+  }
