@@ -212,6 +212,7 @@ a:hover {
 	background-color: rgb(152, 0, 0);
 }
 
+<<<<<<< HEAD
 div.pastevents{
 	font-size: 18px;
 	text-align: center;
@@ -225,3 +226,18 @@ ul.pastevents{
 div.content{
 	text-align: center;
 }
+=======
+.sponsor-page-button {
+	padding: 10px 20px;
+	margin: 10px 5px;
+	background-color: #CCCCCC;
+	color: black;
+	transition: 0.3s;
+	font-variant: small-caps;
+}
+
+.sponsor-page-button:hover {
+	cursor: pointer;
+	background-color: grey;
+}
+>>>>>>> 414198d197287b21faeb875cf692010a1e37280b
