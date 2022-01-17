@@ -57,7 +57,6 @@ hr {
 
 .grid-container {
 	display: grid;
-	grid-template-columns: 1fr 420px;
 	justify-content: space-evenly;
 	grid-column-gap: 25px;
 	font-family: Verdana;
