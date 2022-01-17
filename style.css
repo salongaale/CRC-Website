@@ -148,13 +148,6 @@ div.answer {
 	background-color: rgb(228, 228, 228);
 }
 
-<<<<<<< HEAD
-  }
-  div.pastevents{
-	  font-size: 18px;
-	  text-align: center;
-  }
-=======
 button.link {
 	background: none;
 	border: none;
@@ -218,4 +211,17 @@ a:hover {
 	opacity: 0.7;
 	background-color: rgb(152, 0, 0);
 }
->>>>>>> 0022830770a79a36e9051a4195785e6e56d27e13
+
+.sponsor-page-button {
+	padding: 10px 20px;
+	margin: 10px 5px;
+	background-color: #CCCCCC;
+	color: black;
+	transition: 0.3s;
+	font-variant: small-caps;
+}
+
+.sponsor-page-button:hover {
+	cursor: pointer;
+	background-color: grey;
+}
