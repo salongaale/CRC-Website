@@ -1,15 +1,13 @@
-html {
-	background: fixed;
-	background-image: url('crc pictures/bot_tiled_orange.png');
-}
-
-body {
+/* body {
 	background-color: white;
-	padding: 20px;
 	max-width: 1300px;
 	margin: 0px auto;
 	filter: drop-shadow(10px 15px 10x #000000);
 	font-family: Verdana, sans-serif;
+} */
+body {
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .top_menu {
@@ -112,43 +110,112 @@ hr {
 
 .grid-container-images {
 	display: grid;
-	grid-template-columns: auto auto auto auto;
+	grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+	text-align: center;
 	justify-content: space-evenly;
-	grid-column-gap: 25px;
+	grid-column-gap: 10px;
 	font-family: Verdana;
+	margin-bottom: 20px;
+	margin-left: 50px;
 }
 
 .faq {
 	text-align: center;
 }
 
-
 button.collapsible {
 	background-color: white;
 	border-color: rgb(228, 228, 228);
-	color: rgb(0,0,0);
+	color: rgb(0, 0, 0);
 	padding: 15px;
 	width: 100%;
 	text-align: left;
 	font-size: 15px;
 	margin-top: 15px;
 	border-radius: 4px;
+}
 
-  }
-  
-  button.active, button.collapsible:hover {
-	background-color:rgb(228, 228, 228);
+button.active,
+button.collapsible:hover {
+	background-color: rgb(228, 228, 228);
 	border-style: outset;
-  }
-  
-  div.answer {
+}
+
+div.answer {
 	padding: 0 18px;
 	display: none;
 	overflow: hidden;
 	background-color: rgb(228, 228, 228);
+}
 
+<<<<<<< HEAD
   }
   div.pastevents{
 	  font-size: 18px;
 	  text-align: center;
   }
+=======
+button.link {
+	background: none;
+	border: none;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.footer {
+	position: static;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-image: url('crc pictures/bot_tiled_orange.png');
+	color: white;
+	font-size: 22;
+}
+
+.footer_title {
+	margin-left: 20px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	font-size: 25;
+	text-decoration-line: underline;
+}
+.footer_links {
+	margin-left: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/*Styling for the Cards on the Team Page */
+.card {
+	width: 250px;
+	height: 382px;
+	margin-bottom: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+a {
+	text-decoration: none;
+	font-size: 22px;
+	color: black;
+}
+
+a:hover {
+	color: rgb(152, 0, 0);
+}
+
+.card_button {
+	color: white;
+	border: none;
+	background-color: #000;
+	text-align: center;
+	width: 100%;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+}
+
+.card_button:hover {
+	opacity: 0.7;
+	background-color: rgb(152, 0, 0);
+}
+>>>>>>> 0022830770a79a36e9051a4195785e6e56d27e13
