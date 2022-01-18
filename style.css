@@ -310,3 +310,7 @@ a:hover {
 	max-width: 20%;
 	padding: 20px;
 }
+li.answer{
+	font-size: 15px;
+	color: grey;
+}
