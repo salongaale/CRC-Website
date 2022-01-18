@@ -225,7 +225,7 @@ ul.pastevents{
 div.content{
 	text-align: center;
 }
-=======
+
 .sponsor-page-button {
 	padding: 10px 20px;
 	margin: 10px 5px;
@@ -238,5 +238,13 @@ div.content{
 .sponsor-page-button:hover {
 	cursor: pointer;
 	background-color: grey;
+}
+
+#index_text{
+	font-size: 18px;
+}
+
+#youtube_video{
+	text-align: center;
 }
 >>>>>>> 414198d197287b21faeb875cf692010a1e37280b
