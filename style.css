@@ -8,6 +8,15 @@
 body {
 	padding-left: 20px;
 	padding-right: 20px;
+	margin: 10px auto;
+	max-width: 1200px;
+	font-family: Verdana;
+}
+
+em {
+	font-weight: bold;
+	font-style: normal;
+	color: maroon;
 }
 
 .top_menu {
@@ -86,6 +95,7 @@ hr {
 	font-size: 40;
 	color: rgb(152, 0, 0);
 	font-family: Verdana;
+
 }
 
 .sub_title {
@@ -100,6 +110,12 @@ hr {
 	background-color: rgb(152, 0, 0);
 	color: white;
 	padding: 10px 0px;
+}
+
+.centered-heading {
+	display: block;	
+	text-align: center;
+	margin: 10px auto;
 }
 
 .paragraph {
@@ -211,32 +227,79 @@ a:hover {
 	background-color: rgb(152, 0, 0);
 }
 
-<<<<<<< HEAD
-div.pastevents{
-	font-size: 18px;
-	text-align: center;
-}
-
-ul.pastevents{
-	list-style-type: none;
-	display: inline;
-}
-
-div.content{
-	text-align: center;
-}
-=======
 .sponsor-page-button {
 	padding: 10px 20px;
+	max-width: 200px;
+	max-height: 100px;
+	border-radius: 10px;
+	border: 3px solid maroon;
 	margin: 10px 5px;
-	background-color: #CCCCCC;
+	background-color: whitesmoke;
 	color: black;
 	transition: 0.3s;
 	font-variant: small-caps;
 }
 
+.sponsor-page-button img {
+	height: 50px;
+}
+
 .sponsor-page-button:hover {
 	cursor: pointer;
-	background-color: grey;
+	background-color: black;
+	color: white;
+	border-color: grey;
 }
->>>>>>> 414198d197287b21faeb875cf692010a1e37280b
+
+.header-image-combo {
+	height: 300px;
+	overflow: hidden;
+	margin-top: 10px;
+	padding-top: 20px;
+}
+
+.header-image-combo img {
+	position: relative;
+	background-color: transparent;
+	max-width: 1200px;
+}
+
+.header-image-combo h1 {
+	background-color: maroon;
+	position: relative;
+	top: -4px;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 10px;
+	display: inline;
+	vertical-align: middle;
+}
+
+.sponsor-page-cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 40px 0px;
+}
+
+.sponsor-page-card {
+	background-color: white;
+	flex-grow: 1fr;
+	width: 550px;
+	margin: 5px;
+	padding: 10px;
+	border: 2px solid grey;
+	border-bottom: 10px solid maroon;
+	border-right: 10px solid maroon;
+	border-radius: 10px;
+}
+
+.sponsors-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sponsors-list * {
+	max-width: 20%;
+	padding: 20px;
+}
