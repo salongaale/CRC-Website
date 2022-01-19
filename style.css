@@ -9,8 +9,13 @@ body {
 	padding-left: 20px;
 	padding-right: 20px;
 	margin: 10px auto;
-	max-width: 1200px;
 	font-family: Verdana;
+	font-size: 18px;
+}
+
+.content {
+	max-width: 1200px;
+	margin: 0px auto;
 }
 
 em {
@@ -80,6 +85,11 @@ hr {
 	color: black;
 }
 
+.red-gallery {
+	background-color: maroon;
+	color: white;
+}
+
 .flex-gallery div {
 	width: 400px;
 	flex-grow: 1;
@@ -100,6 +110,21 @@ hr {
 	color: rgb(152, 0, 0);
 	font-family: Verdana;
 
+}
+
+.big-title {
+	font-size: 60px;
+	color: rgb(152, 0, 0);
+}
+
+.red-bg-title {
+	display: inline-block;
+	color: white;
+	background-color: maroon;
+	padding: 20px;
+	padding-right: 40px;
+	border-radius: 10px;
+	margin-bottom: -10px;
 }
 
 .sub_title {
@@ -182,6 +207,7 @@ button.link {
 	background-image: url('crc_pictures/bot_tiled_orange.png');
 	color: white;
 	font-size: 22;
+	padding: 10px;
 }
 
 .footer_title {
@@ -206,8 +232,7 @@ button.link {
 }
 
 a {
-	text-decoration: none;
-	font-size: 22px;
+	text-decoration: underline;
 	color: black;
 }
 
@@ -260,6 +285,19 @@ a:hover {
 	overflow: hidden;
 	margin-top: 10px;
 	padding-top: 20px;
+}
+
+#get-involved {
+	text-align: center;
+	
+}
+
+#get-involved div {
+	display: inline-block;
+	margin: 10px auto;
+	padding: 40px;
+	border-left: 3px solid grey;
+	border-right: 3px solid grey;
 }
 
 #index_text{
