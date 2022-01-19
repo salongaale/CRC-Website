@@ -1,3 +1,8 @@
+@font-face {
+	font-family: Apercu;
+	src: url(./Apercu\ Regular.otf);
+}
+
 /* body {
 	background-color: white;
 	max-width: 1300px;
@@ -9,7 +14,7 @@ body {
 	padding-left: 20px;
 	padding-right: 20px;
 	margin: 10px auto;
-	font-family: Verdana;
+	font-family: Apercu;
 	font-size: 18px;
 }
 
@@ -289,15 +294,13 @@ a:hover {
 
 #get-involved {
 	text-align: center;
-	
+	margin-top: 20px;
 }
 
 #get-involved div {
 	display: inline-block;
-	margin: 10px auto;
-	padding: 40px;
-	border-left: 3px solid grey;
-	border-right: 3px solid grey;
+	margin: 20px auto;
+	padding: 20px;
 }
 
 #index_text{
@@ -307,6 +310,25 @@ a:hover {
 #youtube_video{
 	text-align: center;
 }
+
+.index-statistics {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.index-statistics div {
+	text-align: center;
+	padding: 40px;
+	margin: 20px;
+}
+
+.index-statistics img {
+	margin: 10px auto;
+	display: block;
+	width: 30%;
+}
+
 .header-image-combo img {
 	position: relative;
 	background-color: transparent;
