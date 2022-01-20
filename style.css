@@ -91,8 +91,20 @@ hr {
 }
 
 .red-gallery {
-	background-color: maroon;
+	background-color: grey;
 	color: white;
+}
+
+.timeline ul {
+	border-left: 10px solid maroon;
+}
+
+.timeline li {
+	padding: 20px 10px;
+}
+
+.timeline em {
+	font-size: 1.5em;
 }
 
 .flex-gallery div {
