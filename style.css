@@ -11,8 +11,6 @@
 	font-family: Verdana, sans-serif;
 } */
 body {
-  padding-left: 20px;
-  padding-right: 20px;
   margin: 10px auto;
   font-family: Apercu;
   font-size: 18px;
@@ -84,11 +82,9 @@ hr {
 }
 
 .flex-gallery {
-  background-color: white;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  color: black;
 }
 
 .red-gallery {
@@ -230,23 +226,41 @@ button.link {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-image: url("crc_pictures/bot_tiled_orange.png");
+  background-color: maroon;
   color: white;
   font-size: 22;
-  padding: 10px;
+  margin: 0px auto;
+  overflow: hidden;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+  height: 150px;
+}
+
+.footer-logo {
+  width: 1em;
+  margin-right: 10px;
 }
 
 .footer_title {
   margin-left: 20px;
   margin-top: 30px;
   margin-bottom: 10px;
-  font-size: 25;
-  text-decoration-line: underline;
+  font-size: 1.25em;
 }
-.footer_links {
+
+.footer-text {
   margin-left: 20px;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer a:hover {
+  color: aqua;
 }
 
 /*Styling for the Cards on the Team Page */
@@ -292,7 +306,7 @@ a:hover {
   background-color: whitesmoke;
   color: black;
   transition: 0.3s;
-  font-variant: small-caps;
+  font-size: 1.0em;
 }
 
 .sponsor-page-button img {
@@ -398,9 +412,7 @@ li.answer {
   font-size: 15px;
   color: grey;
 }
-.content {
-  text-align: center;
-}
+
 li {
   list-style: none;
   margin-right: 40px;
