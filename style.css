@@ -21,6 +21,7 @@ body {
 .content {
 	max-width: 1200px;
 	margin: 0px auto;
+	margin-bottom: 20px;
 }
 
 em {
@@ -95,7 +96,9 @@ hr {
 	color: white;
 }
 
-.timeline ul {
+.timeline {
+	padding-top: 15px;
+	margin-top: -50px;
 	border-left: 10px solid maroon;
 }
 
@@ -105,6 +108,10 @@ hr {
 
 .timeline em {
 	font-size: 1.5em;
+}
+
+.event-desc {
+	margin-bottom: 60px;
 }
 
 .flex-gallery div {
@@ -346,14 +353,13 @@ a:hover {
 	max-width: 1200px;
 }
 
-.header-image-combo h1 {
+.rounded-red-bg-title {
 	background-color: maroon;
-	position: relative;
-	top: -4px;
 	color: white;
 	padding: 10px 20px;
+	margin-top: 20px;
 	border-radius: 10px;
-	display: inline;
+	display: inline-block;
 	vertical-align: middle;
 }
 
