@@ -296,6 +296,10 @@ a:hover {
   background-color: rgb(152, 0, 0);
 }
 
+.centered {
+  text-align: center;
+}
+
 .sponsor-page-button {
   padding: 10px 20px;
   max-width: 200px;
