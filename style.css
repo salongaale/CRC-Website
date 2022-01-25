@@ -120,6 +120,51 @@ hr {
   width: 100%;
 }
 
+
+.gallery {
+  background-image: url('crc_pictures/bottiled_white_red.png');
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.gallery img {
+  max-width: 500px;
+  height: auto;
+  flex-grow: 0fr;
+  flex-shrink: 0fr;
+  margin: 25px;
+  filter: drop-shadow(5px 5px 10px);
+}
+
+#team-list ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+#team-list li {
+  font-size: 1.5em;
+  padding: 10px;
+  margin: 30px;
+  margin-left: -40px;
+  border: 2px solid grey;
+  border-radius: 20px;
+}
+
+.team-info {
+  margin-bottom: 80px;
+}
+
+.pair-images img {
+  max-width: 45%;
+  margin: 5px;
+  border-radius: 10px;
+}
+
 .small-image {
   max-width: 180px;
 }
@@ -180,7 +225,7 @@ hr {
   justify-content: space-evenly;
   grid-column-gap: 10px;
   font-family: Verdana;
-  margin-bottom: 20px;
+  margin-bottom: 120px;
   margin-left: 50px;
 }
 
@@ -240,6 +285,7 @@ button.link {
 .footer-logo {
   width: 1em;
   margin-right: 10px;
+  background: transparent;
 }
 
 .footer_title {
@@ -347,7 +393,16 @@ a:hover {
 }
 
 video {
+  display: block;
   border-left-width: 50%;
+}
+
+.closed-info {
+  padding: 30px;
+  font-size: 1.5em;
+  border: 2px solid grey;
+  border-radius: 10px;
+  margin-bottom: 50px;
 }
 
 .index-statistics {
